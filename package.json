@@ -1,8 +1,9 @@
 {
-  "name": "chrome-extension-async",
+  "name": "@types/chrome-extension-async",
   "version": "3.3.2",
-  "description": "Promise wrapper for the Chrome extension API so that it can be used with async and await rather than callbacks",
+  "description": "@types for chrome-extension-async",
   "main": "chrome-extension-async.js",
+  "types": "chrome-extension-async.d.ts",
   "scripts": {
     "build": "npx babel chrome-extension-async.js --out-file execute-async-function.es5.js"
   },
